@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/nisalfonseka/AFlab3/issues"
   },
-  "homepage": "https://github.com/nisalfonseka/AFlab3#readme"
+  "homepage": "https://github.com/nisalfonseka/AFlab3#readme",
+  "dependencies": {
+    "nodeman": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
